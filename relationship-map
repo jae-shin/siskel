@@ -1,0 +1,10 @@
+Collection:                  Movies
+                              /
+                           /
+                        /
+                    /
+                /
+Models:      /                      Movie
+            /                         \
+           /                           \
+Views: AppView ---> MoviesView ---> MovieView
