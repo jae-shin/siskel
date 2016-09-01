@@ -38,6 +38,8 @@ var AppView = Backbone.View.extend({
   },
 
   render: function() {
+    //console.log('this', this);
+    //console.log('this.$(#movies): ', this.$('#movies'));
     new MoviesView({
       el: this.$('#movies'),
       collection: this.collection
